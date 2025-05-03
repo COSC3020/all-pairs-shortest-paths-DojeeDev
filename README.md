@@ -28,3 +28,12 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
+
+
+
+### Analysis
+
+First we consider all V to set them to either Inf or 0. Then all edges to set the weight. And in the worst case since we have 3 loops for for all V it would take |V|^3 steps. So in total we get $\Theta (|V| + |E| + |V|^3)$
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
